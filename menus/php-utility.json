@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "php: generate getter and setter",
+        "command": "php-utility:generate-getter-setter"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "php-utility",
+          "submenu": [
+            {
+              "label": "php: generate getter and setter",
+              "command": "php-utility:generate-getter-setter"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
